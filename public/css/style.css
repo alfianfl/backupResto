@@ -20,7 +20,7 @@
 .subtittle{
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
 }
 .right{
   margin-top: 100px;
@@ -75,8 +75,6 @@ a.btn-computer{color:#fff}
 .btn-computer:after{content:"GET IT ON";position:absolute;top:5px;left:40px;font-size:10px;font-weight:400;}
 
 .layanan{
-  background-image: url(../img/layanan.PNG);
-  height: 1300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,3 +88,78 @@ footer {
   font-weight: lighter;
 }
 
+
+.content-layanan{
+  width: 48%;
+}
+.image-content{
+  width: 48%;
+}
+.dot{
+text-align: center;
+  width: 4%;
+}
+.content-item{
+  width: 50%;
+}
+.line{
+  height: 100%;
+}
+
+.item-layanan{
+  height: 390px;
+}
+
+.item-1, .item-2{
+  position: relative;
+  bottom: 100px;
+}
+
+.home{
+  padding-bottom: 200px;
+  background-image: url(../img/dotbg.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left bottom; 
+}
+
+.swiper-slide img{
+  width: 250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.fitur .swiper{
+  width: 60%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+color: #000;
+font-weight:bold;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .item-1, .item-2{
+    position: static;
+    bottom: 0;
+  }
+  .image-content{
+    width: 100%;
+  }
+  .content-item{
+    width: 100%;
+  }
+  .content-layanan{
+    width: 100%;
+  }
+  .dot{
+ display: none;
+    }
+}
+@media only screen and (max-width: 414px) {
+  .content-layanan{
+    width: 100%;
+  }
+}
